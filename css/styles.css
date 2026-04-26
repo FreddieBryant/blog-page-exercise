@@ -6,16 +6,22 @@
   padding: 0;
 }
 
+:root {
+  --font-primary: "Inter", sans-serif; /* Great for UI/Nav */
+  --font-secondary: "Roboto", sans-serif; /* Great for Headers */
+  --font-accent: "Baskervville", serif; /* Perfect for Body Text */
+}
+
 img {
   max-width: 100%;
   display: block;
 }
 
-body {
-  margin: 10px;
-}
-
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+}
+
+body {
+  margin: 10px;
 }
