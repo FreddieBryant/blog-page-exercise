@@ -27,3 +27,42 @@ body {
   font-family: var(--font-primary);
   line-height: 1.5;
 }
+
+/* Typography Scale (Direct Values) */
+h1 {
+  font-family: var(--font-secondary); /* Roboto */
+  font-size: 3.815rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-size: 3.052rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  font-size: 2.441rem;
+  margin-top: 2rem;
+}
+
+p,
+li {
+  font-family: var(--font-accent); /* Baskervville */
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+p.lead {
+  font-style: italic;
+  font-size: 2.2rem;
+}
+.blog-container {
+  max-width: 1140px; /* Mosh's desktop requirement */
+  width: 90%; /* Keeps it from hitting edges on mobile */
+  margin: 0 auto; /* Centers the container */
+}
